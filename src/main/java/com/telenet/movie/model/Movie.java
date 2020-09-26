@@ -2,6 +2,7 @@ package com.telenet.movie.model;
 
 public class Movie {
 
+	private int id;
 	private String title;
 	private String description;
 	private String releaseDate;
@@ -29,5 +30,11 @@ public class Movie {
 	}
 	public void setGenere(String genere) {
 		this.genere = genere;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
 	}
 }
